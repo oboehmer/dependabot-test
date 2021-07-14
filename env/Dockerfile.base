@@ -1,0 +1,55 @@
+# ----------------------- Base image start ---------------------------
+#
+# We build a cxta-base container which includes all but the CXTA package/docs/etc. 
+# and upload the container to artifactory to avoid re-building it for all pipeline runs.
+# the cxta-base container is tagged with a hash of env/Dockerfile.* and src/CXTA/dependencies.py
+# so it is re-built when either of these change.
+
+FROM ubuntu:20.04
+
+# No tty during docker build, so instruct package installers we're in non-interactive mode
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        apt-transport-https \
+        ca-certificates \
+        curl \
+        git \
+        gnupg2 \
+        libxslt-dev \
+        libxml2-dev \
+        make \
+        python3 \
+        python3-tk \
+        python3-venv
+
+# Install additional tools/utils
+# Please keep the list alphabetically ordered, it will be easier to spot packages..
+RUN apt-get update && \
+    apt-get install -y \
+        figlet \
+        iputils-ping \
+        iputils-tracepath \
+        jq \
+        less \
+        libpq-dev \
+        nano \
+        net-tools \
+        netcat-openbsd \
+        nmap \
+        openconnect \
+        snmp \
+        sshpass \
+        strace \
+        telnet \
+        traceroute \
+        tzdata \
+        vim \
+        wget
+
+#
+RUN apt-get install -y patch
+COPY patches/selenium.patch selenium.patch
+RUN patch -p1 < selenium.patch
+

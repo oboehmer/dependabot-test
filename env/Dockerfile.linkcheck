@@ -1,0 +1,6 @@
+FROM google/dart
+
+ARG LINKCHECK_VERSION=2.0.12
+RUN pub global activate linkcheck ${LINKCHECK_VERSION}
+
+CMD bash

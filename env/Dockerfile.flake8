@@ -1,0 +1,15 @@
+FROM python:3-alpine
+
+# Need docker build arg, such as --build-arg FLAKE8_VERSION=3.0.4
+ARG FLAKE8_VERSION
+# Need docker build arg, such as --build-arg FLAKE8_PLUGINS=flake8-builtins==1.4.1 
+ARG FLAKE8_PLUGINS
+
+RUN pip install flake8==$FLAKE8_VERSION $FLAKE8_PLUGINS
+
+WORKDIR /workspace
+
+COPY .flake8 .flake8
+
+ENTRYPOINT ["flake8"]
+CMD ["--help"]
