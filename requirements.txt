@@ -60,7 +60,7 @@ pytest-randomly==3.7.0
 pytest-vcr==1.0.2
 pytest-xdist==1.32.0
 pytest==5.3.5
-python-neutronclient==7.2.0
+python-neutronclient==7.5.0
 python-openstackclient==3.19.0
 python-slugify==4.0.1
 pywinrm==0.3.0
