@@ -7,7 +7,7 @@ genie.libs.robot==21.6
 genie.telemetry==21.6
 genie.trafficgen==21.6
 #
-ansible==2.9.9
+ansible==4.3.0
 Appium-Python-Client==1.1.0
 asyncssh==1.16.1
 attrdict==2.0.0
