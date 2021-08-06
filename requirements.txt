@@ -34,7 +34,7 @@ IxNetwork==9.00.1915.16
 Jinja2==2.11.3
 jsonpath-rw-ext
 jsonpath==0.80
-jq==1.1.1
+jq==1.2.1
 keyring==15.1.0
 lxml==4.3.3
 mkdocs-material==5.4.0
