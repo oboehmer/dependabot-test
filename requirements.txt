@@ -17,7 +17,7 @@ bps-restpy==9.0.2
 cachetools==4.1.1
 ciscoconfparse==1.3.39
 cryptography==3.4.7
-Cython==0.28.4
+Cython==0.29.24
 dateparser==1.0.0
 docutils==0.14
 elasticsearch==7.13.1
