@@ -63,7 +63,7 @@ pytest==5.3.5
 python-neutronclient==7.5.0
 python-openstackclient==3.19.0
 python-slugify==4.0.1
-pywinrm==0.3.0
+pywinrm==0.4.2
 PyYAML==5.3.1
 redfish==2.1.5
 regex==2020.2.20
