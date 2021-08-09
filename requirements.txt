@@ -71,7 +71,7 @@ requests==2.26.0
 robotframework==4.0.3
 robotframework-angularjs==0.0.10
 robotframework-appiumlibrary==1.6.1
-robotframework-archivelibrary==0.4.0
+robotframework-archivelibrary==0.4.1
 robotframework-csvlib==1.0.2
 robotframework-debuglibrary==2.2.2
 robotframework-faker==5.0.0
