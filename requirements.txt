@@ -96,5 +96,5 @@ vcrpy==2.1.1
 wheel==0.33.4
 xhtml2pdf==0.2.5
 yang.connector==3.0.1
-yq==2.7.2
+yq==2.12.2
 zeep==3.4.0
