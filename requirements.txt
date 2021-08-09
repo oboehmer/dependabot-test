@@ -70,7 +70,7 @@ regex==2020.2.20
 requests==2.26.0
 robotframework==4.0.3
 robotframework-angularjs==0.0.10
-robotframework-appiumlibrary==1.6.1
+robotframework-appiumlibrary==1.6.2
 robotframework-archivelibrary==0.4.0
 robotframework-csvlib==1.0.2
 robotframework-debuglibrary==2.2.2
