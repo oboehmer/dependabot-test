@@ -5,7 +5,7 @@ unicon.plugins==21.7
 genie==21.7
 genie.libs.robot==21.7
 genie.telemetry==21.7
-genie.trafficgen==21.7
+genie.trafficgen==21.7.1
 #
 ansible==2.9.20
 Appium-Python-Client==1.1.0
@@ -19,7 +19,7 @@ ciscoconfparse==1.3.39
 cryptography==3.4.7
 Cython==0.29.24
 dateparser==1.0.0
-docutils==0.14
+docutils==0.17.1
 elasticsearch==7.13.1
 exrex==0.10.5
 Faker==4.1.2
@@ -101,4 +101,4 @@ yang.connector==3.0.1
 yq==2.12.2
 zeep==3.4.0
 aiohttp==3.7.2
-yamlpath==3.4.0
+yamlpath==3.6.1
