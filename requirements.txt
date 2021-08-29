@@ -101,4 +101,4 @@ yang.connector==3.0.1
 yq==2.12.2
 zeep==3.4.0
 aiohttp==3.7.2
-yamlpath==3.4.0
+yamlpath==3.6.1
