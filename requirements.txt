@@ -28,7 +28,7 @@ flake8-builtins==1.4.1
 flake8==3.7.8
 flaky==3.7.0
 htmlmin==0.1.12
-ciscoisesdk==0.5.1
+ciscoisesdk==1.0.1
 ixnetwork-restpy==1.0.50
 IxNetwork==9.00.1915.16
 Jinja2==2.11.3
