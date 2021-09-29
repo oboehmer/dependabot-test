@@ -5,7 +5,7 @@ unicon.plugins==21.7
 genie==21.7
 genie.libs.robot==21.7
 genie.telemetry==21.7
-genie.trafficgen==21.7
+genie.trafficgen==21.9
 #
 ansible==2.9.20
 Appium-Python-Client==1.1.0
