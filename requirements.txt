@@ -53,7 +53,7 @@ psutil==5.7.0
 pyasn1==0.4.5
 pycodestyle==2.5.0
 pyftpdlib==1.5.5
-pyOpenSSL==19.0.0
+pyOpenSSL==22.0.0
 pyshark==0.4.2.3
 pysphere==0.1.7
 pytest-cov==2.5.1
