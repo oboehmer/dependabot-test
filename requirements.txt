@@ -76,7 +76,7 @@ robotframework-archivelibrary==0.4.1
 robotframework-csvlib==1.0.2
 robotframework-debuglibrary==2.2.2
 robotframework-faker==5.0.0
-robotframework-imaplibrary2==0.3.6
+robotframework-imaplibrary2==0.4.2
 robotframework-pabot==1.13
 robotframework-requests==0.9.1
 robotframework-seleniumlibrary==5.1.3
