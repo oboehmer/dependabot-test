@@ -5,7 +5,7 @@
 # the cxta-base container is tagged with a hash of env/Dockerfile.* and src/CXTA/dependencies.py
 # so it is re-built when either of these change.
 
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 # No tty during docker build, so instruct package installers we're in non-interactive mode
 ENV DEBIAN_FRONTEND=noninteractive
