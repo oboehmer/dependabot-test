@@ -97,7 +97,7 @@ vcrpy==2.1.1
 webexteamssdk==1.6
 wheel==0.33.4
 xhtml2pdf==0.2.5
-yang.connector==3.0.1
+yang.connector==22.4
 yq==2.12.2
 zeep==3.4.0
 aiohttp==3.7.2
