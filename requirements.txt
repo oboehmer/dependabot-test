@@ -90,7 +90,7 @@ six==1.15.0
 stcrestclient==1.9.0
 terminaltables==3.1.0
 textfsm==1.1.0
-titlecase==0.12.0
+titlecase==2.3
 twine==1.13.0
 urllib3==1.24.3
 vcrpy==2.1.1
