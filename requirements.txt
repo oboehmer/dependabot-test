@@ -1,5 +1,5 @@
 pyats==21.7
-pyats.robot==21.7
+pyats.robot==22.10
 unicon==21.7
 unicon.plugins==21.7
 genie==21.7
