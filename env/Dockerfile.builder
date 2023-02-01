@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:23.04
 
 # ----------------------- Builder image start ---------------------------
 # This container is used to build the python virtualenv which is copied 
